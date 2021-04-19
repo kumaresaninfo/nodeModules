@@ -1,0 +1,63 @@
+{
+  "_from": "@nuxt/typescript-build@^0.6.0",
+  "_id": "@nuxt/typescript-build@0.6.7",
+  "_inBundle": false,
+  "_integrity": "sha512-sNMWZtdDIjxKpsvqRxXjLUmDEOWWuY/YphtfxkrhANKDII4+brDoj1IIQn0il6SAXlSIvFcYL0gXgXVuwK5M7w==",
+  "_location": "/@nuxt/typescript-build",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@nuxt/typescript-build@^0.6.0",
+    "name": "@nuxt/typescript-build",
+    "escapedName": "@nuxt%2ftypescript-build",
+    "scope": "@nuxt",
+    "rawSpec": "^0.6.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.6.0"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@nuxt/typescript-build/-/typescript-build-0.6.7.tgz",
+  "_shasum": "f3fa42fdf35d7c342132ca037a5f98e8ffa99c05",
+  "_spec": "@nuxt/typescript-build@^0.6.0",
+  "_where": "/var/www/html/OTP-UI-4",
+  "bugs": {
+    "url": "https://github.com/nuxt/typescript/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@nuxt/types": "0.7.9",
+    "consola": "^2.11.3",
+    "fork-ts-checker-webpack-plugin": "^4.1.3",
+    "ts-loader": "^6.2.2",
+    "typescript": "~3.8"
+  },
+  "deprecated": false,
+  "description": "Nuxt.js TypeScript support",
+  "engines": {
+    "node": ">=8.6.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/nuxt/typescript#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@nuxt/typescript-build",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuxt/typescript.git"
+  },
+  "scripts": {
+    "build": "yarn run clean && yarn compile",
+    "clean": "rm -rf dist",
+    "compile": "tsc"
+  },
+  "types": "dist/index.d.ts",
+  "version": "0.6.7"
+}

@@ -1,0 +1,85 @@
+{
+  "_from": "@sentry/webpack-plugin@^1.12.1",
+  "_id": "@sentry/webpack-plugin@1.13.0",
+  "_inBundle": false,
+  "_integrity": "sha512-XQhmWwHY9sgL9OZQVD+SMn9Wa3E+6odsTGucRRo0GyCgkhHsPEGho7JiQtHu7MFoX7kbeva+metnypMn91NqXg==",
+  "_location": "/@sentry/webpack-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@sentry/webpack-plugin@^1.12.1",
+    "name": "@sentry/webpack-plugin",
+    "escapedName": "@sentry%2fwebpack-plugin",
+    "scope": "@sentry",
+    "rawSpec": "^1.12.1",
+    "saveSpec": null,
+    "fetchSpec": "^1.12.1"
+  },
+  "_requiredBy": [
+    "/@nuxtjs/sentry"
+  ],
+  "_resolved": "https://registry.npmjs.org/@sentry/webpack-plugin/-/webpack-plugin-1.13.0.tgz",
+  "_shasum": "98c1b75cf0cfdb0d2b39240ecc4ffe9e6c28dbd4",
+  "_spec": "@sentry/webpack-plugin@^1.12.1",
+  "_where": "/var/www/html/OTP-UI-4/node_modules/@nuxtjs/sentry",
+  "author": {
+    "name": "Sentry"
+  },
+  "bugs": {
+    "url": "https://github.com/getsentry/sentry-webpack-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@sentry/cli": "^1.58.0"
+  },
+  "deprecated": false,
+  "description": "Official webpack plugin for Sentry",
+  "devDependencies": {
+    "codecov": "^3.5.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "jest": "^24.8.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.18.2",
+    "prettier-check": "^2.0.0",
+    "snyk": "^1.240.1",
+    "webpack": "^4.39.3"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "homepage": "https://github.com/getsentry/sentry-webpack-plugin",
+  "keywords": [
+    "sentry",
+    "sentry-cli",
+    "webpack",
+    "source-map"
+  ],
+  "license": "MIT",
+  "main": "src/cjs.js",
+  "name": "@sentry/webpack-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/getsentry/sentry-webpack-plugin.git"
+  },
+  "scripts": {
+    "codecov": "codecov",
+    "fix": "run-s fix:eslint fix:prettier",
+    "fix:eslint": "eslint --fix src",
+    "fix:prettier": "prettier --write 'src/**/*.js'",
+    "lint": "run-s lint:prettier lint:eslint",
+    "lint:eslint": "eslint src",
+    "lint:prettier": "prettier-check 'src/**/*.js'",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk protect",
+    "test": "jest",
+    "test:integration": "cd example && yarn && yarn test",
+    "test:watch": "jest --watch --notify"
+  },
+  "snyk": true,
+  "types": "index.d.ts",
+  "version": "1.13.0"
+}

@@ -1,0 +1,69 @@
+{
+  "_from": "cookie-universal-nuxt@^2.1.3",
+  "_id": "cookie-universal-nuxt@2.1.4",
+  "_inBundle": false,
+  "_integrity": "sha512-xbn4Ozs9S0u2+0mQTZRwGlBL9MGNq8N4H6iGfprR5ufZFCS2hGef++3DBHSmHXZi30Wu3Q7RI/GkNMhz3cecmg==",
+  "_location": "/cookie-universal-nuxt",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cookie-universal-nuxt@^2.1.3",
+    "name": "cookie-universal-nuxt",
+    "escapedName": "cookie-universal-nuxt",
+    "rawSpec": "^2.1.3",
+    "saveSpec": null,
+    "fetchSpec": "^2.1.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cookie-universal-nuxt/-/cookie-universal-nuxt-2.1.4.tgz",
+  "_shasum": "323f8645501f88cb2422127ad8ba2ee40187b716",
+  "_spec": "cookie-universal-nuxt@^2.1.3",
+  "_where": "/var/www/html/OTP-UI-4",
+  "author": {
+    "name": "Salvatore Tedde",
+    "email": "microcipcip@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/microcipcip/cookie-universal/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/cookie": "^0.3.3",
+    "cookie-universal": "^2.1.4"
+  },
+  "deprecated": false,
+  "description": "Universal cookie plugin for Nuxt, perfect for SSR",
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  },
+  "files": [
+    "lib",
+    "types/index.d.ts",
+    "types/vue.d.ts"
+  ],
+  "gitHead": "a2109e34326750d44b6fdb0813946dc7a4f6337b",
+  "homepage": "https://github.com/microcipcip/cookie-universal/tree/master/packages/cookie-universal-nuxt#readme",
+  "keywords": [
+    "universal cookie",
+    "SSR cookie",
+    "node cookie",
+    "browser cookie",
+    "cookies",
+    "cookie"
+  ],
+  "license": "MIT",
+  "main": "lib/module.js",
+  "name": "cookie-universal-nuxt",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microcipcip/cookie-universal/tree/master/packages/cookie-universal-nuxt"
+  },
+  "typings": "types/index.d.ts",
+  "version": "2.1.4"
+}

@@ -1,0 +1,67 @@
+{
+  "_from": "@nuxt/types@0.7.9",
+  "_id": "@nuxt/types@0.7.9",
+  "_inBundle": false,
+  "_integrity": "sha512-AsKj+iVV+XlCKKdpfYuLjUCUUNgL+7SzaQPp6/Z6WMqndIXegVMXn2Iu9Ixo+Qd7Y4U1Cvy4e3LYHMj0QNH+Lg==",
+  "_location": "/@nuxt/types",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@nuxt/types@0.7.9",
+    "name": "@nuxt/types",
+    "escapedName": "@nuxt%2ftypes",
+    "scope": "@nuxt",
+    "rawSpec": "0.7.9",
+    "saveSpec": null,
+    "fetchSpec": "0.7.9"
+  },
+  "_requiredBy": [
+    "/@nuxt/typescript-build"
+  ],
+  "_resolved": "https://registry.npmjs.org/@nuxt/types/-/types-0.7.9.tgz",
+  "_shasum": "a6bc6911672a812063cbb17726304cb536f58a3d",
+  "_spec": "@nuxt/types@0.7.9",
+  "_where": "/var/www/html/OTP-UI-4/node_modules/@nuxt/typescript-build",
+  "bugs": {
+    "url": "https://github.com/nuxt/typescript/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/autoprefixer": "^9.7.2",
+    "@types/babel__core": "^7.1.8",
+    "@types/compression": "^1.7.0",
+    "@types/connect": "^3.4.33",
+    "@types/etag": "^1.8.0",
+    "@types/file-loader": "^4.2.0",
+    "@types/html-minifier": "^3.5.3",
+    "@types/less": "^3.0.1",
+    "@types/node": "^12.12.47",
+    "@types/node-sass": "^4.11.1",
+    "@types/optimize-css-assets-webpack-plugin": "^5.0.1",
+    "@types/pug": "^2.0.4",
+    "@types/serve-static": "^1.13.4",
+    "@types/terser-webpack-plugin": "^2.2.1",
+    "@types/webpack": "^4.41.17",
+    "@types/webpack-bundle-analyzer": "^3.8.0",
+    "@types/webpack-dev-middleware": "^3.7.1",
+    "@types/webpack-hot-middleware": "^2.25.3"
+  },
+  "deprecated": false,
+  "description": "Nuxt.js types",
+  "files": [
+    "**/*.d.ts"
+  ],
+  "homepage": "https://github.com/nuxt/typescript#readme",
+  "license": "MIT",
+  "name": "@nuxt/types",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuxt/typescript.git"
+  },
+  "types": "index",
+  "version": "0.7.9"
+}

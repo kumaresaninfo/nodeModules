@@ -1,0 +1,113 @@
+{
+  "_from": "@nuxtjs/sentry@^4.1.3",
+  "_id": "@nuxtjs/sentry@4.3.5",
+  "_inBundle": false,
+  "_integrity": "sha512-wAeGX4lozGTyAC1/ewoYe0j29gKyHDx8ihOxu5JMwwUpdmpPDJKvuSh0yoOcttLUdfITTNJU1VMVGLwvqISsNQ==",
+  "_location": "/@nuxtjs/sentry",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@nuxtjs/sentry@^4.1.3",
+    "name": "@nuxtjs/sentry",
+    "escapedName": "@nuxtjs%2fsentry",
+    "scope": "@nuxtjs",
+    "rawSpec": "^4.1.3",
+    "saveSpec": null,
+    "fetchSpec": "^4.1.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@nuxtjs/sentry/-/sentry-4.3.5.tgz",
+  "_shasum": "572f8f29978f6985cc4aae3e6c1c726434ea6a16",
+  "_spec": "@nuxtjs/sentry@^4.1.3",
+  "_where": "/var/www/html/OTP-UI-4",
+  "babel": {
+    "env": {
+      "test": {
+        "presets": [
+          [
+            "@babel/preset-env",
+            {
+              "targets": {
+                "node": "current"
+              }
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/nuxt-community/sentry-module/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Diederik van den Burger",
+      "email": "diederik@webrelated.nl"
+    },
+    {
+      "name": "Rafal Chlodnicki",
+      "url": "@rchl"
+    }
+  ],
+  "dependencies": {
+    "@sentry/browser": "^5.23.0",
+    "@sentry/integrations": "^5.23.0",
+    "@sentry/node": "^5.23.0",
+    "@sentry/webpack-plugin": "^1.12.1",
+    "consola": "^2.15.0",
+    "deepmerge": "^4.2.2"
+  },
+  "deprecated": false,
+  "description": "Sentry module for Nuxt.js",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@nuxt/types": "^2.14.5",
+    "@nuxtjs/eslint-config-typescript": "^3.0.0",
+    "@nuxtjs/module-test-utils": "^1.6.3",
+    "@release-it/conventional-changelog": "^2.0.0",
+    "@types/consola": "^2.2.5",
+    "@types/deepmerge": "^2.2.0",
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.10.2",
+    "@types/request-promise-native": "^1.0.17",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.3.0",
+    "codecov": "^3.7.2",
+    "eslint": "^7.9.0",
+    "jest": "^26.4.2",
+    "nuxt": "^2.14.5",
+    "release-it": "^14.0.3",
+    "typescript": "^4.0.2"
+  },
+  "files": [
+    "lib",
+    "types"
+  ],
+  "homepage": "https://github.com/nuxt-community/sentry-module#readme",
+  "license": "MIT",
+  "main": "lib/module.js",
+  "name": "@nuxtjs/sentry",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuxt-community/sentry-module.git"
+  },
+  "scripts": {
+    "coverage": "codecov",
+    "lint": "eslint --ext .vue,.js,.ts lib test types",
+    "lint:fixture": "eslint --ext .vue,.js --no-ignore 'test/fixture/*/.nuxt/sentry.*'",
+    "release": "release-it",
+    "test": "yarn lint --fix && yarn test:fixture && yarn lint:fixture",
+    "test:fixture": "jest --runInBand"
+  },
+  "types": "types/index.d.ts",
+  "version": "4.3.5"
+}
